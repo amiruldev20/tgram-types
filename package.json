@@ -1,0 +1,34 @@
+{
+  "name": "@tgram/types",
+  "version": "1.0.1",
+  "description": "Telegram Bot API type declarations for tgram",
+  "main": "mod.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiruldev20/tgram-types.git"
+  },
+  "keywords": [
+    "tgram",
+    "telegram",
+    "bot",
+    "api",
+    "types"
+  ],
+  "scripts": {
+    "prepare": "deno task backport"
+  },
+  "author": "Amirul Dev",
+  "types": "mod.d.ts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amiruldev20/tgram-types/issues"
+  },
+  "files": [
+    "*.d.ts",
+    "mod.js"
+  ],
+  "homepage": "https://tgram.dev/",
+  "devDependencies": {
+    "deno-bin": "^1.31.1"
+  }
+}
